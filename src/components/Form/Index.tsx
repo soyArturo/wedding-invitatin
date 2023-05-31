@@ -36,7 +36,7 @@ const Form = () => {
             <div className="absolute inset-0 flex flex-col items-center justify-center space-y-10">
               <div className="flex flex-col justify-center items-center w-full">
                 <p className="text-3xl px-3 text-center">
-                  Confirma tu asistencia! 🍻
+                  Confirma tu asistencia!🍻
                 </p>
                 <form action="" method="post" className="mt-3 w-full px-3">
                   <div className="w-full">
