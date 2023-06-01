@@ -4,6 +4,7 @@ import Info from "./components/Info/Index";
 import Quote from "./components/Quote/Index";
 import { isMobile } from "react-device-detect";
 import Form from "./components/Form/Index";
+import { ParallaxBanner } from "react-scroll-parallax";
 
 const App = () => {
   const [timerDays, setTimerDays] = useState(0);
@@ -45,7 +46,6 @@ const App = () => {
     startTimer();
   });
 
-
   if (!isMobile) {
     return (
       <div className="flex h-screen justify-center items-center">
@@ -66,6 +66,15 @@ const App = () => {
       <Info />
       <Quote />
       <Form />
+      <ParallaxBanner
+        layers={[
+          {
+            image: "https://i.ibb.co/Syyv0pL/IMG-3510.jpg",
+            speed: -20,
+          },
+        ]}
+        className="h-screen bg-cover bg-center bg-no-repeat"
+      />
     </>
   );
 };
