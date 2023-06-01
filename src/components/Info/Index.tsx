@@ -16,14 +16,14 @@ const Info = () => {
                 <img src="https://img.icons8.com/carbon-copy/100/null/wedding-rings.png" />
                 <p className="text-4xl">Ceremonia</p>
                 <div className="text-white text-xl bg-rose px-8 py-2 rounded-lg mt-3">
-                  6:00 pm
+                  5:00 pm
                 </div>
               </div>
               <div className="flex flex-col justify-center items-center">
                 <img src="https://img.icons8.com/carbon-copy/100/null/champagne.png" />
                 <p className="text-4xl">Recepcion</p>
                 <div className="text-white text-xl bg-rose px-8 py-2 rounded-lg mt-3">
-                  7:00 pm
+                  6:00 pm
                 </div>
               </div>
               <div className="flex flex-col justify-center items-center px-3">

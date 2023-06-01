@@ -6,8 +6,6 @@ const Form = () => {
   const [brideButton, setBrideButton] = useState(false);
   const [groomButton, setGroomButton] = useState(false);
 
-
-
   const sendWhatsapp = (type: string) => {
     const brideNumber = "+526646996223";
     const groomNumber = "+526641710528";
@@ -62,7 +60,7 @@ const Form = () => {
                     <button
                       type="button"
                       id="bride-button"
-                      onClick={() => sendWhatsapp('bride')}
+                      onClick={() => sendWhatsapp("bride")}
                       disabled={brideButton || !name}
                       className="w-full rounded-md bg-rose px-3 py-2 text-base font-semibold text-white shadow-sm hover:bg-rose-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-500 disabled:opacity-50"
                     >
@@ -72,7 +70,7 @@ const Form = () => {
                     <button
                       type="button"
                       id="groom-button"
-                      onClick={() => sendWhatsapp('groom')}
+                      onClick={() => sendWhatsapp("groom")}
                       disabled={groomButton || !name}
                       className="w-full rounded-md bg-navy px-3 py-2 text-base font-semibold text-white shadow-sm hover:bg-navy-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-500n disabled:opacity-50"
                     >
@@ -91,6 +89,12 @@ const Form = () => {
                     src="https://img.icons8.com/carbon-copy/150/dress-front-view.png"
                     alt="dress-front-view"
                   />
+                </div>
+                <div className="flex justify-center items-center text-center w-full h-full px-5 pb-3 ">
+                  <p>
+                    Aunque nos gustan los niños, esta sera una celebracion solo
+                    para adultos
+                  </p>
                 </div>
               </div>
             </div>
