@@ -76,6 +76,12 @@ const Form = () => {
                     >
                       Enviar a novio
                     </button>
+                    <div className="flex justify-center items-center text-sm text-center w-full px-3 mt-2">
+                      <p>
+                        Aunque nos gustan los niños, esta sera una celebracion
+                        solo para adultos
+                      </p>
+                    </div>
                   </div>
                 </form>
                 <p className="mt-10 text-2xl">Codigo de vestimenta:</p>
@@ -94,7 +100,7 @@ const Form = () => {
                   <p className="text-xl">
                     Favor de omitir los siguientes colores:
                   </p>
-                  <div className="grid grid-cols-3 gap-3">
+                  <div className="grid grid-cols-3 gap-2">
                     <div className="flex flex-col space-y-1 justify-center items-center">
                       <div className="w-10 h-10 rounded-full bg-navy"></div>
                       <p>Azul marino</p>
@@ -120,12 +126,6 @@ const Form = () => {
                       <p>Guinda</p>
                     </div>
                   </div>
-                </div>
-                <div className="flex justify-center items-center text-center w-full px-3 mt-3">
-                  <p>
-                    Aunque nos gustan los niños, esta sera una celebracion solo
-                    para adultos
-                  </p>
                 </div>
               </div>
             </div>
