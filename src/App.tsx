@@ -71,9 +71,10 @@ const App = () => {
           {
             image: "https://i.ibb.co/Syyv0pL/IMG-3510.jpg",
             speed: -20,
+            className: "object-scale-down object-center h-screen",
           },
         ]}
-        className="h-screen bg-cover bg-center bg-no-repeat"
+        className="h-screen bg-black"
       />
     </>
   );
