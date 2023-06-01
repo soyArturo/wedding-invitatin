@@ -90,7 +90,38 @@ const Form = () => {
                     alt="dress-front-view"
                   />
                 </div>
-                <div className="flex justify-center items-center text-center w-full h-full px-5 pb-3 ">
+                <div className="flex flex-col space-y-3">
+                  <p className="text-xl">
+                    Favor de omitir los siguientes colores:
+                  </p>
+                  <div className="grid grid-cols-3 gap-3">
+                    <div className="flex flex-col space-y-1 justify-center items-center">
+                      <div className="w-10 h-10 rounded-full bg-navy"></div>
+                      <p>Azul marino</p>
+                    </div>
+                    <div className="flex flex-col space-y-1 justify-center items-center">
+                      <div className="w-10 h-10 rounded-full bg-white border border-black"></div>
+                      <p>Blanco</p>
+                    </div>
+                    <div className="flex flex-col space-y-1 justify-center items-center">
+                      <div className="w-10 h-10 rounded-full bg-gray-300"></div>
+                      <p>Gris</p>
+                    </div>
+                    <div className="flex flex-col space-y-1 justify-center items-center">
+                      <div className="w-10 h-10 rounded-full bg-gray-700"></div>
+                      <p>Gris oscuro</p>
+                    </div>
+                    <div className="flex flex-col space-y-1 justify-center items-center">
+                      <div className="w-10 h-10 rounded-full bg-rose"></div>
+                      <p>Rosa</p>
+                    </div>
+                    <div className="flex flex-col space-y-1 justify-center items-center">
+                      <div className="w-10 h-10 rounded-full bg-pink-950"></div>
+                      <p>Guinda</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex justify-center items-center text-center w-full px-3 mt-3">
                   <p>
                     Aunque nos gustan los niños, esta sera una celebracion solo
                     para adultos
