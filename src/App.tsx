@@ -46,15 +46,15 @@ const App = () => {
     startTimer();
   });
 
-  if (!isMobile) {
-    return (
-      <div className="flex h-screen justify-center items-center">
-        <p className="text-4xl">
-          Perdon, esta pagina solo esta disponible para moviles :(
-        </p>
-      </div>
-    );
-  }
+  // if (!isMobile) {
+  //   return (
+  //     <div className="flex h-screen justify-center items-center">
+  //       <p className="text-4xl">
+  //         Perdon, esta pagina solo esta disponible para moviles :(
+  //       </p>
+  //     </div>
+  //   );
+  // }
   return (
     <>
       <Countdown
