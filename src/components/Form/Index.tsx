@@ -50,7 +50,7 @@ const Form = () => {
                   autoComplete="off"
                   onChange={(e) => setName(e.target.value)}
                   value={name}
-                  className="block w-full rounded-md border-0 p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-black focus:ring-2 focus:ring-inset focus:ring-black"
+                  className="block w-full rounded-md border border-black p-1.5 text-black shadow-sm"
                 />
               </div>
             </div>
