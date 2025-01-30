@@ -1,10 +1,3 @@
-import { useEffect, useState } from "react";
-import { isMobile } from "react-device-detect";
-import { ParallaxBanner } from "react-scroll-parallax";
-import Countdown from "./components/Countdown/Index";
-import Form from "./components/Form/Index";
-import Info from "./components/Info/Index";
-import Quote from "./components/Quote/Index";
 import MainScreen from "./screens/MainScreen";
 
 const App = () => {

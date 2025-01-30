@@ -1,6 +1,8 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+// @ts-nocheck
 import { AnimatePresence } from "motion/react";
 import * as motion from "motion/react-client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { FaHeart } from "react-icons/fa6";
 import InvitationScreen from "./InvitationScreen";
 

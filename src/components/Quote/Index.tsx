@@ -1,5 +1,3 @@
-import { ParallaxBanner } from "react-scroll-parallax";
-
 const Quote = () => {
   return (
     <div className="containerr">
