@@ -66,14 +66,15 @@ const Form = () => {
           </button>
           <div className="flex justify-center items-center text-sm text-center w-full px-3 mt-2">
             <p>
-              Aunque nos gustan los niños, esta sera una celebracion solo para
+              Aunque nos gustan los niños, esta sera una celebración solo para
               adultos
             </p>
           </div>
         </div>
       </form>
-      <p className="mt-10 text-2xl">Codigo de vestimenta:</p>
-      <p className="text-xl">Formal</p>
+      <p className="mt-10 text-2xl">Código de vestimenta:</p>
+      <p className="text-xl">Etiqueta rigurosa</p>
+      <p className="text-lg">Total BLACK</p>
       <div className="flex justify-center items-center">
         <img src="https://img.icons8.com/carbon-copy/100/suit.png" alt="suit" />
         <img

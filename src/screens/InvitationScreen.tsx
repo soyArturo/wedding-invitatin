@@ -13,7 +13,7 @@ const InvitationScreen = () => {
   let interval!: any;
 
   const startTimer = () => {
-    const countDownDate = new Date("2025-05-24T23:59:59").getTime();
+    const countDownDate = new Date("2025-05-24T19:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();

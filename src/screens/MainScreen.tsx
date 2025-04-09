@@ -36,7 +36,7 @@ const MainScreen = () => {
                 <FaHeart className="text-white text-3xl mx-2.5" />
                 <div className="bg-white w-80 max-xs:w-28 max-md:w-48 h-1.5 rounded-lg" />
               </div>
-              <p className="textName">Izzuy &amp; Marcos</p>
+              <p className="textName">Marcos &amp; Izzuy</p>
               <div className="flex items-center justify-center p-2.5">
                 <div className="bg-white w-80 max-xs:w-28 max-md:w-48 h-1.5 rounded-lg" />
                 <FaHeart className="text-white text-3xl mx-2.5" />
