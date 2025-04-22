@@ -6,23 +6,30 @@ const Form = () => {
   const [groomButton, setGroomButton] = useState(false);
 
   const sendWhatsapp = (type: string) => {
-    const brideNumber = "+526646996223";
-    const groomNumber = "+526641710528";
+    const brideNumber = "+526641931384";
+    const groomNumber = "+526644276528";
     let message = `Hola, soy ${name} y confirmo mi asistencia!`;
     if (type === "bride") {
       setGroomButton(false);
-      message = `Hola Alondra, soy ${name} y confirmo mi asistencia!`;
+      message = `Hola Izzuy, soy ${name} y confirmo mi asistencia!`;
       window.open(`https://wa.me/${brideNumber}?text=${message}`);
     } else {
       setBrideButton(false);
-      message = `Hola Arturo, soy ${name} y confirmo mi asistencia!`;
+      message = `Hola Marcos, soy ${name} y confirmo mi asistencia!`;
       window.open(`https://wa.me/${groomNumber}?text=${message}`);
     }
   };
 
   return (
     <div className="flex flex-col justify-center items-center w-full py-10">
-      <p className="text-3xl px-3 text-center">Confirma tu asistencia!🍻</p>
+      <p className="text-3xl px-3 text-center font-bold">
+        Confirma tu asistencia!🍻
+      </p>
+      <p className="text-lg px-3 text-center font-semibold">
+        Queremos saber si podrás acompañarnos en este día tan especial.
+        <br />
+        Por favor confirma tu asistencia antes del 3 de Mayo.
+      </p>
       <form action="" method="post" className="mt-3 w-full px-3">
         <div className="w-full">
           <label
@@ -40,7 +47,6 @@ const Form = () => {
               onChange={(e) => setName(e.target.value)}
               value={name}
               className="block w-full rounded-md border border-black p-1.5 text-black shadow-sm"
-              disabled
             />
           </div>
         </div>
@@ -72,9 +78,11 @@ const Form = () => {
           </div>
         </div>
       </form>
-      <p className="mt-10 text-2xl">Código de vestimenta:</p>
+      <p className="mt-10 text-2xl font-bold">Código de vestimenta:</p>
       <p className="text-xl">Etiqueta rigurosa</p>
-      <p className="text-lg">Total BLACK</p>
+      <p className="text-lg">
+        Total <span className="font-[1000] text-xl">BLACK</span>
+      </p>
       <div className="flex justify-center items-center">
         <img src="https://img.icons8.com/carbon-copy/100/suit.png" alt="suit" />
         <img
