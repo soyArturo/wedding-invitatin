@@ -5,6 +5,7 @@
 
 * {
   font-family: "Cormorant Garamond", serif;
+  user-select: none;
 }
 
 .containerr {
